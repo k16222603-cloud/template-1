@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navigation.css';
-import data from '../data/data.json';
+import data from '../../data.json';
 
 const Navigation: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

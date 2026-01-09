@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import data from '../data/data.json';
+import data from '../../data.json';
 
 interface ExperienceItem {
   id: number;

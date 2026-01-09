@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import data from '../data/data.json';
+import data from '../../data.json';
 
 interface SocialLink {
   platform: string;

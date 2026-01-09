@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import data from '../data/data.json';
+import data from '../../data.json';
 
 const About: React.FC = () => {
   const { about } = data;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import data from '../data/data.json';
+import data from '../../data.json';
 
 const Hero: React.FC = () => {
   const { personal, hero } = data;
